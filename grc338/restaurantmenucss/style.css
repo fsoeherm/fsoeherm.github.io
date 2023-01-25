@@ -17,7 +17,7 @@ body {
 h1 {
 	background-color: rgb(89, 89, 114);
 	color: rgb(238, 236, 247); /* Same as body background. */
-	font-size: 32pt;
+	font-size: 3rem;
 	padding: 2.5rem 1rem 0rem; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
@@ -34,7 +34,7 @@ h1 span {
 h2 {
 	background-color:  rgb(89, 89, 114);
 	color:  rgb(238, 236, 247);
-	font-size: 18pt;
+	font-size: 1.5rem;
 	padding: 1rem;
 	font-family: serif;
 	font-weight: none;
@@ -42,8 +42,8 @@ h2 {
 
 h3 {
 	margin: 2rem 1rem .5rem; /*Three values again. You got the idea.*/
-	padding-top: 0.5rem;
-	font-size: 21pt;
+	padding-top: 1rem;
+	font-size: 2rem;
 	color: rgb(192, 9, 9);
 	font-weight: bolder;
 	text-transform: uppercase;
