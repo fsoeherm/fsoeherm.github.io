@@ -4,15 +4,4 @@ img {
     width: 100%; 
 }
 
-nav ul li {
-    display: inline;
-    color:cornflowerblue;
-
-}
-
-header {
-    background: #888888;
-    grid-column: 1/3;
-}
-
 /*Please don’t change this CSS stylesheet for the content hierarchy assginment */
