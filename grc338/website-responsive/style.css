@@ -82,11 +82,11 @@ figure {
 }
 
 main.menu ul {
-		margin: 1rem 0rem;
+		margin: 0rem;
 }	
 
 main.menu ul li {
-		margin: 2rem 2rem 0rem 0rem;
+		margin: 2rem 0rem 0rem 0rem;
 		display: grid;
 		grid-template-columns: auto auto;
 		grid-template-rows: auto auto;
@@ -162,6 +162,7 @@ article {
 		display: grid;
 		grid-template-columns: auto auto;
 		grid-template-rows: auto auto;
+		grid-gap: 2em;
 	}	
 	article{
 		width: 30em;
@@ -170,7 +171,7 @@ article {
 	}
 
 	body{
-		background-color:rgb(236, 104, 89);
+		background-color:rgb(255, 0, 0);
 		width: 60em;
 		margin-left:auto;
 		margin-right:auto;
