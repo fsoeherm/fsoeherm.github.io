@@ -4,7 +4,7 @@ html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 
 
 div.home-container { 
-	background: url(texture_background.jpg) center center fixed;
+	background: url(Texture_Background.jpg) center center fixed;
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
@@ -45,7 +45,8 @@ header {
 	}
 
 h1 {
-	width: 15em;
+	width: 17em;
+	padding:1.5rem 0rem;
 	}
 
 h2, h3, h4 {
@@ -80,7 +81,7 @@ nav ul  {
 }
 
 nav ul li.selected a {
-	background-color: rgb(107, 67, 25);	
+	background-color: rgb(126, 95, 61);	
 	color:rgb(215, 215, 215);
 	font-family: "mrs-eaves-roman-lining", serif;
 	font-weight: 400;
@@ -97,7 +98,7 @@ figure {
 }
 
 main.menu ul {
-		margin: 0rem;
+	margin: 0rem 0rem 3rem;
 }	
 
 main.menu ul li {
@@ -138,7 +139,7 @@ nav ul li {
 	}
 	
 nav ul li a {
-	color: rgb(107, 67, 25);	
+	color: rgb(126, 95, 61);	
 	background-color: rgb(201, 201, 201);
 	padding: 0.5rem .8rem;
 	font-family: "mrs-eaves-roman-lining", serif;
@@ -154,7 +155,7 @@ p.slogan {
 	font-family: serif;
 	font-style: italic;
 	margin: 4rem 2rem;
-	color: rgb(107, 67, 25);	
+	color: rgb(126, 95, 61);	
 	}
 	
 footer {
@@ -164,7 +165,8 @@ footer {
   height: 3rem; 
   box-sizing: border-box;
   padding: 1rem 2rem;
-  background: rgb(248, 248, 248);
+  background-color: rgb(126, 95, 61);	
+  color:rgb(248, 248, 248);
 }
 
 address {
@@ -183,6 +185,7 @@ address.home {
 
 footer p {
 	margin: 0rem;
+
 }
 
 article {
@@ -204,7 +207,7 @@ article {
 	}
 
 	body{
-		background-color: rgb(107, 67, 25);	
+		background-color: rgb(126, 95, 61);	
 		width: 60em;
 		margin-left:auto;
 		margin-right:auto;
