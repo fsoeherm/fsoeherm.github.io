@@ -1,14 +1,64 @@
-<!doctype html>  
-<html>  
-    <head>  
-        <meta charset="UTF-8" />  
-        <meta name="viewport" content="width=device-width, initial-scale=1" />  
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />  
-        <meta http-equiv="Pragma" content="no-cache" />  
-        <meta http-equiv="Expires" content="0" />  
-        <title>GRC 339: Flexbox form</title>  
-    </head>   
-    <body>  
-        <h1>Flexbox form</h1>  
-    </body>  
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Flexbox form</title>
+        <link rel="stylesheet" type="text/css" href="flexboxform.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Flexbox form</h1>
+            </header>
+            <form>
+                <section class="section-1">
+                    <h2>Section 1</h2>
+                    <ul>
+                        <li><label for="field-1">Field:</label> <input type="text" name="field-1" id="field-1" placeholder="Field 1" /></li>
+                        <li><label for="field-2">Another field:</label> <input type="text" name="field-2" id="field-2" placeholder="Field 2" /></li>
+                        <li>
+                            <label for="state">A select:</label>
+                            <select id="field-3" name="field-3">
+                                <option value=""></option>
+                                <option value="select1">Item A</option>
+                                <option value="select2">Item B</option>
+                                <option value="select3">Item C</option>
+                            </select>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section-2">
+                    <h2>Section 2</h2>
+
+                    <ul>
+                        <li><input type="checkbox" id="lorem" value="lorem" /> <label for="lorem">Lorem</label></li>
+                        <li><input type="checkbox" id="ipsum" value="ipsum" /> <label for="ipsum">Ipsum</label></li>
+                        <li><input type="checkbox" id="dolor" value="dolor" /> <label for="dolor">Dolor</label></li>
+                        <li><input type="checkbox" id="sit" value="sit" /> <label for="sit">Sit</label></li>
+                        <li><input type="checkbox" id="amet" value="amet" /> <label for="amet">Amet</label></li>
+                        <li><input type="checkbox" id="consectetuer" value="consectetuer" /> <label for="consectetuer">Consectetuer</label></li>
+                        <li><input type="checkbox" id="adipiscing" value="adipiscing" /> <label for="adipiscing">Adipiscing</label></li>
+                        <li><input type="checkbox" id="elit" value="elit" /> <label for="elit">Elit</label></li>
+                        <li><input type="checkbox" id="integer" value="integer" /> <label for="integer">Integer</label></li>
+                        <li><input type="checkbox" id="at" value="at" /> <label for="at">At</label></li>
+                        <li><input type="checkbox" id="elit" value="elit" /> <label for="elit">Elit</label></li>
+                        <li><input type="checkbox" id="urna" value="urna" /> <label for="urna">Urna</label></li>
+                        <li><input type="checkbox" id="elementum" value="elementum" /> <label for="elementum">Elementum</label></li>
+                        <li><input type="checkbox" id="interdum" value="interdum" /> <label for="interdum">Interdum</label></li>
+                        <li><input type="checkbox" id="donec" value="donec" /> <label for="donec">Donec</label></li>
+                        <li><input type="checkbox" id="nibh" value="nibh" /> <label for="nibh">Nibh</label></li>
+                    </ul>
+                </section>
+                <section class="section-3">
+                    <h2>Section 3</h2>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </section>
+                <section class="section-4">
+                    <button type="submit">Submit</button>
+                </section>
+            </form>
+        </div>
+    </body>
 </html>
+

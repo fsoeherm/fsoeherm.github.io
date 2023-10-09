@@ -1,0 +1,22 @@
+/*CSS DOCUMENT*/
+
+section {
+	margin: 0 0 1em;
+}
+
+.section-1 {
+	background: #888;
+}
+
+.section-2 {
+	background: #aaa;
+}
+
+.section-3 {
+	background: #ccc;
+}
+
+.section-4 {
+	background: #eee;
+}
+
