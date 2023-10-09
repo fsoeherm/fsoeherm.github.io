@@ -29,7 +29,7 @@ section.personal-info ul li input[type="text"],
 section ul li input[type="email"],
 section ul li input[type="tel"],
 section ul li select {
-	flex: 2 0 30em;
+	flex: 2 0 20em;
 	box-sizing: border-box;
 }
 
