@@ -1,22 +1,90 @@
 /*CSS DOCUMENT*/
 
+body {
+	font-family: sans-serif;
+	line-height: 1.4em;
+	color: #222;
+	background-color: #fafafa;
+	box-sizing: border-box;
+	}
+	
+div.container {
+        max-width: 40em;
+        margin: 1em;
+        padding 1em;
+}
+
+header {
+	padding-top: 1em;
+}
+
+
+section.personal-info ul li {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+}
+
+section.personal-info ul li input[type="text"],
+section ul li input[type="email"],
+section ul li input[type="tel"],
+section ul li select {
+	flex: 2 0 30em;
+	box-sizing: border-box;
+}
+
+section.personal-info ul li label {
+	flex: 1 1 10em ;
+}
+
+section.order ul, section.method ul {
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+section.order ul li , section.method ul li {
+	flex: 1 1 15em;;
+	
+	}
+	
+	
+h3 {
+	margin: 2em 0 0;
+	}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+	}
+	
+
+	
 section {
-	margin: 0 0 1em;
+    background: #eee;
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
-.section-1 {
-	background: #888;
+section p {
+	margin-top: 0;
 }
 
-.section-2 {
-	background: #aaa;
-}
+textarea {
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	height: 6em;
+	background: #fcfcfc;
+	border: 1px solid #e8e8e8;
+	padding: 0.4em;
+	font-family: sans-serif;
+	color: #777;
+	}
 
-.section-3 {
-	background: #ccc;
-}
+@media only screen and (min-width: 40em) {
 
-.section-4 {
-	background: #eee;
-}
+  div.container {
+    margin: auto;
+  }
 
+}
