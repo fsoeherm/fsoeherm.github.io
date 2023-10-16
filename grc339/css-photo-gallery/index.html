@@ -1,14 +1,56 @@
-<!doctype html>  
-<html>  
-    <head>  
-        <meta charset="UTF-8" />  
-        <meta name="viewport" content="width=device-width, initial-scale=1" />  
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />  
-        <meta http-equiv="Pragma" content="no-cache" />  
-        <meta http-equiv="Expires" content="0" />  
-        <title>GRC 339: CSS photo gallery</title>  
-    </head>   
-    <body>  
-        <h1>CSS photo gallery</h1>  
-    </body>  
-</html>
+<!doctype html>
+		<html>
+			<head>
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<title>CSS photo gallery</title>
+                <link rel="stylesheet" type="text/css" href="photogallery.css">
+			</head>	
+			<body>
+                <div class="container">
+                    
+                    <input type="radio" name="item" id="photo1" checked="checked">
+                    <input type="radio" name="item" id="photo2">
+                    <input type="radio" name="item" id="photo3">
+                    <input type="radio" name="item" id="photo4">
+                    
+                    <h1>California</h1>
+                    
+                    <main>
+                        <figure>
+                            <img src="linda-pomerantz-zhang-XOeCBcX42s4-unsplash.jpg" alt="Walt Disney Concert Hall in Los Angeles during sunset.">
+                            <figcaption>Los Angeles</figcaption> <!-- Photo by Linda Pomerantz Zhang (@lindapz) on Unsplash. -->
+                        </figure>
+                        <figure>
+                            <img src="kyle-cottrell-UhbHdLZ22SI-unsplash.jpg" alt="Morro Rock in Morro Bay during sunset.">
+                            <figcaption>Morro Bay</figcaption> <!-- Photo by Kyle Cottrell (@kcottrell) on Unsplash. -->
+                        </figure>
+                        <figure>
+                            <img src="megan-ellis-6C35p33MiQ4-unsplash.jpg" alt="View of PetCo Park on a game day in San Diego, with the Downtown skyline in the background." > 
+                            <figcaption>San Diego</figcaption>  <!-- Photo by Megan Ellis (@meganmarieee19) on Unsplash. -->
+                        </figure>
+                        <figure>
+                            <img src="daniel-abadia-3hslPaZKqUM-unsplash.jpg" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
+                            <figcaption>San Francisco</figcaption> <!-- Photo by Daniel Abadia (@pixeldan) on Unsplash. -->
+                        </figure>
+                    </main>
+                    
+                    <nav>
+                        <label for="photo1">
+                            <img src="linda-pomerantz-zhang-XOeCBcX42s4-unsplash.jpg" alt="Walt Disney Concert Hall in Los Angeles during sunset.">
+                        </label>
+                        <label for="photo2">
+                            <img src="kyle-cottrell-UhbHdLZ22SI-unsplash.jpg" alt="Morro Rock in Morro Bay during sunset.">
+                        </label>
+                        <label for="photo3">
+                            <img src="megan-ellis-6C35p33MiQ4-unsplash.jpg" alt="View of PetCo Park on a game day in San Diego, with the Downtown skyline in the background.">
+                        </label>
+                        <label for="photo4">
+                            <img src="daniel-abadia-3hslPaZKqUM-unsplash.jpg" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
+                        </label>
+                    </nav>
+                                    
+                </div>
+					
+			</body>
+		</html>
