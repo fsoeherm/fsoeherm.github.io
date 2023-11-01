@@ -1,0 +1,44 @@
+/*CSS document*/
+
+h3{
+    font-family: "brevia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #E57B2B;
+
+}
+
+li{
+    font-family: "sonar-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2480C1;
+    display: inline;
+    padding: 0em 1em 0em 0em;
+}
+
+body {
+    font-family: "sonar-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #EEF7DF;
+    padding: 
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
