@@ -33,8 +33,8 @@ a:hover{
 
 h1{
     max-width: 18em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    /* width: 10em; */
 }
 
 section{
@@ -57,7 +57,7 @@ li{
     font-family: "sonar-sans", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #2480C1;
+    color:rgb(22, 85, 148);
     padding: 0em 1em 0em 0em;
 }
 
@@ -77,6 +77,11 @@ body {
 a{
     text-decoration: none;
     color:rgb(22, 85, 148);
+}
+
+footer{
+    color:rgb(22, 85, 148);
+
 }
 
 section.tertiary{
@@ -245,4 +250,70 @@ section.personal-info ul li label {
 	flex: 1 1 10em ;
     margin: auto;
     
+}
+
+/* img.logo-dark {
+    display:none;
+} */
+
+@media screen and (prefers-color-scheme: dark){
+
+    body {
+        background-color: #6C7558;
+        /* color: #999; */
+    }
+
+    h1 {
+        background-image: url("339_logo-alt.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* max-width: 20em; */
+        /* padding: 0em; */
+        margin-left: auto;
+
+    }
+
+    h1 img {
+        opacity: 0;
+    }
+
+    a:hover{
+        color: #FAB078;
+    }
+
+    h3{
+        color: #FAB078;
+    }
+
+    p{
+        color: #a4ceec;
+    }
+
+    a{
+        color: #a4ceec;
+    }
+
+    footer{
+        color: #a4ceec;
+    }
+
+    h2{
+        color: #a4ceec;
+    }
+    
+    figcaption{
+        color: #a4ceec;
+    }
+
+    li{
+        color: #a4ceec;
+    }
+    /* img.logo-light {
+        display: none;
+    }
+
+    img.logo-dark {
+        display: block;
+    } */
+
 }
